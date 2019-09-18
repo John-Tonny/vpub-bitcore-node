@@ -57,7 +57,7 @@
     "vpub-bitcoind-rpc": "git://github.com/vpubchain/vpub-bitcoind-rpc",
     "vpub-bitcore-lib": "git://github.com/vpubchain/vpub-bitcore-lib",
     "vpub-insight-api": "git://github.com/John-Tonny/vpub-insight-api",
-    "vpub-insight-ui": "git://github.com/John-Gonny/vpub-insight-ui",
+    "vpub-insight-ui": "git://github.com/John-Tonny/vpub-insight-ui",
     "bitcore-wallet-service": "git://github.com/John-Tonny/bitcore-wallet-service",
     "bitcore-wallet-client": "git://github.com/John-Tonny/bitcore-wallet-client",
     "path-is-absolute": "^1.0.0",
