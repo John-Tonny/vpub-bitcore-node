@@ -12,7 +12,7 @@
     "bitcoind": {
       "spawn": {
         "datadir": "/data/vircle",
-        "exec": "/home/ubuntu/vpub-bitcore-node/bin/vircled"
+        "exec": "/home/ubuntu/aaa/vpub-bitcore-node/bin/vircled"
       }
     }
   }
