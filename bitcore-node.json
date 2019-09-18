@@ -1,0 +1,19 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "vpub-insight-api",
+    "vpub-insight-ui", 
+    "bitcore-wallet-service",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "/data/vircle",
+        "exec": "/home/ubuntu/vpub-bitcore-node/bin/vircled"
+      }
+    }
+  }
+}
