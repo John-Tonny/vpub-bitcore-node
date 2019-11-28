@@ -1,0 +1,15 @@
+[Unit]
+Description=High-performance, schema-free document-oriented database
+After=network.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+ExecStart=/home/ubuntu/.nvm/versions/node/v8.4.0/bin/node /home/ubuntu/vpub-bitcore-node/bin/bitcore-node start -c /home/ubuntu/vpub-bitcore-node
+Restart=always
+
+# Recommended limits for for mongod as specified in
+# http://docs.mongodb.org/manual/reference/ulimit/#recommended-settings
+
+[Install]
+WantedBy=multi-user.target
